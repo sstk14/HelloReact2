@@ -7,6 +7,7 @@ import { Counter } from './components/Counter';
 
 
 import { Hello } from './components/Hello';
+import { Dice } from './components/Dice/Dice';
 
 
 export default class App extends Component {
@@ -17,6 +18,7 @@ export default class App extends Component {
       <Layout>
         <Route exact path='/' component={Home} />
         <Route path='/hello' component={Hello} />
+        <Route path='/dice' component={Dice} />
       </Layout>
     );
   }
